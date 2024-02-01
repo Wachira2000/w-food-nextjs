@@ -9,8 +9,6 @@ import { Icon } from 'leaflet';
 //leaflet css
 import 'leaflet/dist/leaflet.css';
 
-import { motion } from 'framer-motion';
-import { fadeIn } from '@/variants';
 
 const markers = [
     {

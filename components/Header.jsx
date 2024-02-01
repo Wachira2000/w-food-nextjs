@@ -15,6 +15,7 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
+            if(typeof window !== 'undefined') {
             // detect scroll
 
             setActive(window.scrollY > 100);
@@ -29,7 +30,7 @@ const Header = () => {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
+}}, []);
   return (
     <header className={`${active ? 'bg-black py-4' : 'bg-none py-8'} fixed top-0 w-full z-50 left-0 right-0 transition-all duration-200`}>
         <div className='container mx-auto'>

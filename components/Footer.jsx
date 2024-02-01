@@ -8,7 +8,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className='bg-footer bg-cover bg-no-repeat text-white pt-16'>
+    <motion.footer 
+    variants={fadeIn('up', 0.2)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.3}}
+    className='bg-footer bg-cover bg-no-repeat text-white pt-16'>
         <div className='container mx-auto'>
             {/* {logo} */}
             <div className='w-[300px] mb-8 xl:mb-0'>
@@ -104,7 +109,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-    </footer>
+    </motion.footer>
   )
 }
 
