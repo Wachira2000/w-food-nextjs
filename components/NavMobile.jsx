@@ -60,7 +60,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
         </div>
         {/* {logo} */}
         <Link href='/'>
-            <Image src='/assets/logo.svg' width={90} height={36} alt='logo'/>
+            <Image src='/logo.svg' width={90} height={36} alt='logo'/>
         </Link>
         <div className='flex flex-col gap-y-10'>
          {links.map((link, index) => {
