@@ -104,7 +104,7 @@ const Footer = () => {
                 </div>
                 <div className='py-4 border-t border-white/10'>
                     <p className='text-white/60 text-center text-sm'>
-                        Copyright &copy; Lewis Wachira
+                        Copyright &copy; NetKrafter
                     </p>
                 </div>
             </div>
