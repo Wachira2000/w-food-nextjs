@@ -25,7 +25,7 @@ const Hero = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.4}}
             className='text-white font-semibold mb-7'>
-                by: <span className='text-orange'>Lewis Wachira</span>
+                by: <span className='text-orange'>NetKrafter</span>
             </motion.p>
             <motion.p 
             variants={fadeIn('down', 0.6)}
